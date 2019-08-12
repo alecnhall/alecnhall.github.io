@@ -1,11 +1,11 @@
 # Site settings
 author: Alec Hall
-title: 
+title: Alec Hall
 header-img: img/home-bg.png
 email: alecnhall@gmail.com
 copyright_name: Alec Hall
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Follow me on my journey to becoming a software engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  alecnhall
