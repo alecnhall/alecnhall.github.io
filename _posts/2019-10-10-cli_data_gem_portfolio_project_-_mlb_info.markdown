@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "CLI Data Gem Portfolio Project - MLB Info"
-date:       2019-10-10 22:46:29 +0000
+date:       2019-10-10 18:46:30 -0400
 permalink:  cli_data_gem_portfolio_project_-_mlb_info
 ---
 
 
-Wow! It feels so good to be here writing this right now. Who would've thought that I would ever be able to write a program from scratch? This was by far the most intimidating portion of this asignment. Everything up until this point has been test driven and not being able to rely on those tests that point you in the right direction is scary! In the end, I was able to get through it and write a program that works how I expect it to work, and what a great feeling it has given me!
+Wow! It feels so good to be here writing this right now. Who would've thought that I would ever be able to write a program from scratch? This was by far the most intimidating portion of this assignment. Everything up until this point has been test driven and not being able to rely on those tests that point you in the right direction is scary! In the end, I was able to get through it and write a program that works how I expect it to work, and what a great feeling it has given me!
 
 Beginning this project I was very nervous about how far my knowledge of concepts within Ruby would take me. Thank god for the resources provided because if it wasn't for them I don't think I would have been able to trust what I had already learned. Using the bonus videos, I was able to find a strong starting point for this project. Also, I know we say this a lot but Google really is your best friend.
 
