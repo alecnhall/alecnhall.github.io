@@ -1,0 +1,23 @@
+---
+layout: post
+title:      "CLI Data Gem Portfolio Project - MLB Info"
+date:       2019-10-10 22:46:29 +0000
+permalink:  cli_data_gem_portfolio_project_-_mlb_info
+---
+
+
+Wow! It feels so good to be here writing this right now. Who would've thought that I would ever be able to write a program from scratch? This was by far the most intimidating portion of this asignment. Everything up until this point has been test driven and not being able to rely on those tests that point you in the right direction is scary! In the end, I was able to get through it and write a program that works how I expect it to work, and what a great feeling it has given me!
+
+Beginning this project I was very nervous about how far my knowledge of concepts within Ruby would take me. Thank god for the resources provided because if it wasn't for them I don't think I would have been able to trust what I had already learned. Using the bonus videos, I was able to find a strong starting point for this project. Also, I know we say this a lot but Google really is your best friend.
+
+In building my Gem I was able to find resources that walked you through creating all the files and dependencies needed to move forward. The video of Avi building the daily deal scraper helped me organize and build a good base for my objects. I moved forward using a structure similar to Avi's in the daily deal example but soon realized that this structure wasn't coducive to clean code for what I wanted to build.
+
+I chose to build a Gem that scrapes MLB.com for a list of all teams in the league and then returns more information about each team. The two pieces of information that I chose to focus on were the team website and the park in which each team plays their home games. Originally my scope for attributes for the team was much wider but soon realized that I had to rein that in because of the way that information on the page was structured. Nokogiri is an amazing tool but I definitely ran into some issues when using it. The first was that whenever I was scraping for team names, I was retruning a large list of team names that was not separated by spaces. I was retrieving the information that I wanted but not in a format that was in anyway usable for creating objects. Since each team name was from a different CSS selector I imagined iterating over each of those elements and placing them into an array, from which I could then create objects and list. It took me quite a few tries to get my CLI to print out these team names but once it did I figured out the way I was doing it was super inefficient. This is when I went back to my resources and looked at the World's Best Restaurant example provided for us. Scanning through this code I could see that this example was doing the exact same thing that I was doing but just in a much more efficient way. I decided to rely on this example heavily when it came to building the rest of my CLI.
+
+My Dad, who is a programmer, once told me that if he had a choice he would never build anything from scratch, rather rely on examples of code that he could implement into his own programs and fit into the way that he wants things to work. I chose this route as I moved further into building my CLI. I built three classes, teams, my scraper, and my CLI controller. These objects all do exactly what they sound like they do! The teams class holds all the instances of my teams, the scraper class scrapes MLB.com and creates all of my new instances, and the controller that runs my CLI. The thing that I enjoyed most about the given example was how it immediatly instantiated new objects at the beginning of running the CLI class. This made the most sense when following along with the instructions of this project. Loading everything into objects so that it loads quicker into the program itself. A problem I ran into though is that scraping some of the infomation I wanted to include as an attribute required scraping another page. Using the URL that I originally scraped and included in each team instance I was able to assign the park attributes by scraping that next page when that information is called in the CLI. Overall using the example provided I was able to build something that worked for me.
+
+This project was really eye opening into how I shouldn't be intimidated in creating something from scratch. Using the resources presented proved to be what helped me most in the long run. The great thing about this is that these resources are available whenever you need them whether they are given to you or you have to search for them. 
+
+I hope you all enjoy my CLI. It can be found in my GitHub repsoitories under mlb_info. 
+
+Thanks for reading and have a great day!
