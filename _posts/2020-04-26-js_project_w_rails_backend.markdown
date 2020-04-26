@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JS Project w/ Rails Backend"
-date:       2020-04-26 22:14:53 +0000
+date:       2020-04-26 18:14:54 -0400
 permalink:  js_project_w_rails_backend
 ---
 
